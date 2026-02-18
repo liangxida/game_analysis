@@ -64,13 +64,13 @@ In each case, the key question shifts from:
 “Does it work on average?” to “For whom does it work, and how should we act accordingly?”
 
 ## Data Information
-There are two key aspects: Operational Accessibility and Meaning Validation
-Operational accessibility involves standardizing column names, deleting redundant variables (e.g., duplicates or non-unique columns), and filling missing values when necessary.
+There are two key aspects: Operational Accessibility and Meaning Consideration.
 
-Furthermore, grounded in the concrete scenario, careful consideration is given to the detailed meaning of each column and how it will be used in subsequent analysis. 
-In this case, churn and hard-level variables are created by transforming continuous variables into binary indicators based on reliable distribution thresholds.
+Operational accessibility involves standardizing column names, removing redundant variables (e.g., duplicates or non-unique columns), and handling missing values when necessary. These steps ensure that the data is properly structured and fully usable for subsequent analysis.
 
-Distribution checks are conducted for each variable to evaluate both domain coverage and data validity. For example, a variable containing the same value across all observations provides no analytical value. When data are highly imbalanced, additional evaluation metrics such as F1-score are introduced instead of relying solely on accuracy.
+Meaning consideration focuses on validating the conceptual relevance of each variable within the concrete scenario. In this case, churn and hard-level variables are constructed by transforming continuous measures into binary indicators based on data-driven distribution thresholds. These two variables are essential for analyzing the topics of "churn rate" and "hard level."
+
+Distribution checks are conducted for each variable to assess domain coverage and statistical validity. Variables with no variance provide no analytical value and are removed. For highly imbalanced data, additional evaluation metrics such as F1-score are used instead of relying solely on accuracy.
 
 ### Data resource: 
 The initial raw data was collected from various gaming platforms, capturing key player metrics and behaviors. https://github.com/pancham8675/player_churn_prediction/blob/main/datasets/final_dataset.csv
