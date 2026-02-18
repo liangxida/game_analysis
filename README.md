@@ -10,9 +10,9 @@ The data shows a different story:
 
 ### What the Analysis Reveals
 
-- **14.6%** of players are highly sensitive to difficulty *(ITE = 0.175)*  
-- **24.5%** remain resilient even when levels are hard *(ITE = 0.118)*  
-- **60.9%** lose interest for reasons not directly related to difficulty *(ITE = 0.134)*  
+- **14.6%** of players are highly sensitive to difficulty *(HTE = 0.175)*  
+- **24.5%** remain resilient even when levels are hard *(HTE = 0.118)*  
+- **60.9%** lose interest for reasons not directly related to difficulty *(HTE = 0.134)*  
 
 > **Most players can handle higher difficulty levels.**
 
