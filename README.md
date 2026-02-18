@@ -1,31 +1,33 @@
 # Game Analysis: Do Harder Levels Cause Player Churn?
 ## Data Overturned a Common Assumption
-It is widely assumed that hard levels cause players to quit.
 
-The data says otherwise.
-  Hard levels do not cause universal churn.
-  They disproportionately impact a small behavioral segment.
+Community feedback can create the impression that hard levels are the primary reason players quit.
 
-Community feedback amplifies frustration signals, this causal analysis reveals:
+The data shows a different story:
 
-1. 14.6% of players show high difficulty sensitivity (ITE = 0.175)
-2. 24.5% remain highly resilient (ITE = 0.118)
-3. 60.9% disengage for reasons unrelated to struggle (ITE = 0.134)
+> **Hard levels do not make everyone quit.**  
+> **They mainly affect a small group of players.**
 
-The majority of players are resilient to higher difficulty levels.
+### What the Analysis Reveals
+
+- **14.6%** of players are highly sensitive to difficulty *(ITE = 0.175)*  
+- **24.5%** remain resilient even when levels are hard *(ITE = 0.118)*  
+- **60.9%** lose interest for reasons not directly related to difficulty *(ITE = 0.134)*  
+
+> **Most players can handle higher difficulty levels.**
 
 ## Analysis Workflow
 Instead of relying on community signals, a rigorous analysis workflow is introduced:
 
-1. Set up Causal Problem
+**1. Set up Causal Problem**
 - Treatment, Outcome, Pre-treatments, Post-treatments and Confounders 
 - Identification Assumptions 
 
-2. Overall Impact vs. User-Level Impact
+**2. Overall Impact vs. User-Level Impact**
 - IPW and Doubly Robust 
 - Overall ATE, ITE and HTE
 
-3. Different Players, Different Reactions
+**3. Different Players, Different Reactions**
 - Cluster players based on gameplay features
 
 ### Project Structure
@@ -54,11 +56,11 @@ Decision Principle: Move from average optimization to segment-aware optimization
 This framework is scalable across both technical and product dimensions.
 ### Technical Extensions
 - ITE Estimation: Causal Forests, Meta-learners (S-/T-/X-learners)
-- Segmentation Methods: Gaussian Mixture Models (GMM), Hierarchical Clustering
+- Segmentation Methods: Hierarchical Clustering
 
 ### Product Applications
-- Business: Pricing strategies, Personalized recommendation systems, Coupon allocation and uplift modeling
-Public Health: Medical treatment evaluation and Policy impact assessment
+- Business: Personalized recommendation systems, Coupon allocation
+- Public Health: Medical treatment evaluation and Policy impact assessment
 
 In each case, the key question shifts from:
 “Does it work on average?” to “For whom does it work, and how should we act accordingly?”
