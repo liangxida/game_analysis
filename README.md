@@ -66,7 +66,7 @@ In each case, the key question shifts from:
 “Does it work on average?” to “For whom does it work, and how should we act accordingly?”
 
 ## Data Information
-There are two key aspects: Operational Accessibility and Meaning Consideration.
+There are two key aspects for data cleaning and reconstruction: Operational Accessibility and Meaning Consideration.
 
 Operational accessibility involves standardizing column names, removing redundant variables (e.g., duplicates or non-unique columns), and handling missing values when necessary. These steps ensure that the data is properly structured and fully usable for subsequent analysis.
 
