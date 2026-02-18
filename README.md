@@ -53,11 +53,11 @@ Decision Principle: Move from average optimization to segment-aware optimization
 
 This framework is scalable across both technical and product dimensions.
 ### Technical Extensions
-ITE Estimation: Causal Forests, Meta-learners (S-/T-/X-learners)
-Segmentation Methods: Gaussian Mixture Models (GMM), Hierarchical Clustering
+- ITE Estimation: Causal Forests, Meta-learners (S-/T-/X-learners)
+- Segmentation Methods: Gaussian Mixture Models (GMM), Hierarchical Clustering
 
 ### Product Applications
-Business: Pricing strategies, Personalized recommendation systems, Coupon allocation and uplift modeling
+- Business: Pricing strategies, Personalized recommendation systems, Coupon allocation and uplift modeling
 Public Health: Medical treatment evaluation and Policy impact assessment
 
 In each case, the key question shifts from:
