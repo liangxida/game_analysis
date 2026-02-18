@@ -51,9 +51,17 @@ In each case, the key question shifts from:
 “Does it work on average?” to “For whom does it work, and how should we act accordingly?”
 
 ## Data Information
-The essential rule for data processing is 
+There are two key aspects: Operational Accessibility and Meaning Validation
+Operational accessibility involves standardizing column names, deleting redundant variables (e.g., duplicates or non-unique columns), and filling missing values when necessary.
 
-data resource:
+Furthermore, grounded in the concrete scenario, careful consideration is given to the detailed meaning of each column and how it will be used in subsequent analysis. 
+In this case, churn and hard-level variables are created by transforming continuous variables into binary indicators based on reliable distribution thresholds.
+
+Distribution checks are conducted for each variable to evaluate both domain coverage and data validity. For example, a variable containing the same value across all observations provides no analytical value. When data are highly imbalanced, additional evaluation metrics such as F1-score are introduced instead of relying solely on accuracy.
+
+### Data resource: 
+The initial raw data was collected from various gaming platforms, capturing key player metrics and behaviors. https://github.com/pancham8675/player_churn_prediction/blob/main/datasets/final_dataset.csv
+
 
 
 
