@@ -38,10 +38,10 @@ Instead of relying on community signals, a rigorous analysis workflow is introdu
 - GameAnalysis_main.ipynb  
   Causal estimation (ATE, ITE, HTE) and clustering analysis.
 
-- game_data.csv
-  Output by Dataset_Preparation.ipynb and then used as the input for GameAnalysis_main.ipynb.
+- game_data.csv  
+  Output by Dataset_Preparation.ipynb and applied in GameAnalysis_main.ipynb.
 
-- dataset.csv   
+- dataset.csv  
   Raw game behavior dataset.
 
 ## Core idea
