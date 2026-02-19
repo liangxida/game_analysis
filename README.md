@@ -38,11 +38,11 @@ Instead of relying on community signals, a rigorous analysis workflow is introdu
 - GameAnalysis_main.ipynb  
   Causal estimation (ATE, ITE, HTE) and clustering analysis.
 
-- game_data.csv  
-  Output by Dataset_Preparation.ipynb and applied in GameAnalysis_main.ipynb.
-
 - dataset.csv  
   Raw game behavior dataset.
+
+- game_data.csv  
+  Output by Dataset_Preparation.ipynb and applied in GameAnalysis_main.ipynb.
 
 ## Core idea
 ATE, ITE, and HTE quantify the causal impact of hard levels on churn at different levels of granularity.
