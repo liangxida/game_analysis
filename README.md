@@ -30,8 +30,9 @@ Instead of relying on community signals, a rigorous analysis workflow is introdu
 **3. Different Players, Different Reactions**
 - Cluster players based on gameplay features
 
-### Project Structure
+<img width="1714" height="425" alt="OverviewFigure" src="https://github.com/user-attachments/assets/b49c8e1f-9fd5-4f75-b218-c3d6055fbe4a" />
 
+### Project Structure
 - Dataset_Preparation.ipynb  
   Data cleaning, preprocessing, and variable validation.
 
@@ -53,8 +54,8 @@ Together, they transform noisy correlations into segment-level mechanisms and ac
 
 ## Scalability
 Decision Principle: Move from average optimization to segment-aware optimization.
-
 This framework is scalable across both technical and product dimensions.
+
 ### Technical Extensions
 - ITE Estimation: Causal Forests, Meta-learners (S-/T-/X-learners)
 - Segmentation Methods: Hierarchical Clustering
